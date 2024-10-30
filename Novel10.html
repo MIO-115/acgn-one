@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Beruf系列 - 简介</title>
+    <link rel="stylesheet" href="style7.css">
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* 防止内容溢出 */
+            color: #fff;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4; /* 整个屏幕的背景色 */
+        }
+        .text-fluorescent {
+    text-shadow:
+        0 0 5px #0ff,  /* 添加蓝色荧光阴影 */
+        0 0 10px #0ff, /* 添加更广泛的蓝色荧光阴影 */
+        0 0 15px #0ff, /* 添加更广泛的蓝色荧光阴影 */
+        0 0 20px #0ff, /* 添加更广泛的蓝色荧光阴影 */
+        0 0 30px #0ff, /* 添加更广泛的蓝色荧光阴影 */
+        0 0 40px #0ff; /* 添加最广泛的蓝色荧光阴影 */
+}
+
+/* 应用荧光效果到所有文本元素 */
+h1, h2, p, .info, .button, ul li {
+    font-weight: bold; /* 加粗文字，使荧光效果更明显 */
+}
+
+        .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white url('./img/10.jpg') no-repeat center center; /* 设置背景图片 */
+    background-size: cover; /* 覆盖整个容器 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+        .cover-image {
+            width: auto; /* 根据容器自动调整宽度 */
+            height: auto; /* 高度保持比例 */
+            max-width: 100%; /* 确保图片不会超出容器宽度 */
+            margin-bottom: 150px; /* 添加底部边距 */
+        }
+
+        .content {
+            flex: 1;
+            text-align: center; /* 文本居中 */
+            padding: 20px; /* 添加内边距 */
+        }
+
+        .info {
+            margin-bottom: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .info span {
+            margin-right: 15px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #5cb85c;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        .button:hover {
+            background-color: #4cae4c;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="网页设计大赛ACGN.html">主页</a></li>    
+                <li><a href="Animation.html"><ruby>动漫<rt>Animation</rt></ruby></a></li>
+                <li><a href="Comics.html"><ruby>漫画<rt>Comics</rt></ruby></a></li>
+                <li><a href="Game.html"><ruby>游戏<rt>Game</rt></ruby></a></li>
+                <li><a href="Novel.html"><ruby>小说<rt>Novel</rt></ruby></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+        <img src="./img/10.jpg" alt="Beruf系列" class="cover-image">
+        <div class="content">
+            <h1>Beruf系列</h1>
+            <div class="info">
+                <span>连载: MF文库J</span>
+                <span>类别: 全本 其它文库日本轻小说 悬疑 冒险 职场 女性视角</span>
+                <span>更新时间: 5-31</span>
+                <span>字数: 744 万</span>
+                <span>总推荐: 45</span>
+                <span>周推荐: 4</span>
+            </div>
+            <p>新闻，是追求真相的报导还是拚点击的娱乐？
+                  直到最后仍充满震撼！每一页都是冲击！
+                  我根本从未理解过──
+                  采访他人的意义，或是传达讯息给他人的意义。</p>
+            <div class="buttons">
+                <a href="#" class="button">开始阅读</a>
+                <a href="#" class="button">加入书架</a>
+                <a href="#" class="button">推荐本书</a>
+                <a href="#" class="button">留言反馈</a>
+            </div>
+            <h2>最新章节</h2>
+            <ul>
+                <li>第三章 伟大的场所</li>
+                <li>第二章 提笔</li>
+                <li>第一章 勇气的来源</li>
+                <!-- 更多章节 -->
+            </ul>
+        </div>
+    </div>
+    </main>
+    <div class="footer">
+        <p> ©2024 ACGN网页设计 </p>
+    </div>
+</body>
+</html>
